@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LumaRestore red light therapy mask for a simple, consistent at-home skincare routine.">
+    <title>LumaRestore - Red Light Therapy Mask</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="announcement" aria-live="polite">
+        <p id="announcementText">Free tracked shipping on qualifying orders.</p>
+        <button class="announcement-close" aria-label="Dismiss announcement">
+            <i class="ph ph-x" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <a class="brand" href="#top" aria-label="LumaRestore home">
+                <img src="assets/Header_Logo.png" alt="LumaGlow">
+            </a>
+            <nav class="desktop-nav" aria-label="Primary navigation">
+                <a href="#how-it-works">How it works</a>
+                <a href="#results">Routine timeline</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <div class="header-actions">
+                <button class="icon-btn" id="searchBtn" aria-label="Search"><i class="ph ph-magnifying-glass"
+                        aria-hidden="true"></i></button>
+                <button class="cart-button" id="cartBtn" aria-label="Open cart">
+                    <i class="ph ph-shopping-bag" aria-hidden="true"></i>
+                    <span id="cartCount">0</span>
+                </button>
+                <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileNav"><i
+                        class="ph ph-list" aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+            <a href="#how-it-works">How it works</a>
+            <a href="#results">Routine timeline</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container breadcrumb"><a href="#top">Home</a><span>/</span><a
+                href="#top">Wellness</a><span>/</span><strong>LumaRestore</strong></div>
+
+        <section class="product container" id="product">
+            <div class="gallery reveal">
+                <div class="thumbs" id="thumbs" aria-label="Product gallery thumbnails"></div>
+                <button class="main-image-wrap" id="mainImageButton" aria-label="Open image fullscreen">
+                    <img id="mainImage" src="assets/hero-main.webp"
+                        alt="LumaRestore LED light therapy mask, front view">
+                    <span class="zoom-hint">Click to view larger</span>
+                </button>
+            </div>
+
+            <aside class="buy-box" id="buyBox">
+                <a class="rating" href="#reviews" aria-label="Jump to reviews"><span class="star-icons"
+                        aria-hidden="true"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                            class="ph-fill ph-star"></i></span> <strong>4.8</strong>
+                    <em>(128 reviews)</em></a>
+                <a class="social-proof" href="#reviews">
+                <span class="social-proof-avatars" aria-hidden="true">
+                    <img src="assets/ugc-1.webp" alt="">
+                    <img src="assets/ugc-3.webp" alt="">
+                    <img src="assets/ugc-5.webp" alt="">
+                </span>
+                <span><strong>Loved by real homes</strong><small>Customer photos & stories</small></span>
+                <i class="ph ph-caret-right" aria-hidden="true"></i>
+                </a>
+
+                <h1>Red Light Therapy Mask</h1>
+                <p class="value-prop">Make time for a simple at-home light therapy ritual that fits naturally into your day.
+                </p>
+
+                <div class="price-row">
+                    <strong class="price" id="productPrice">$249</strong>
+                    <del id="originalPrice">$299</del>
+                    <span class="badge" id="savingsBadge">Save $50</span>
+                </div>
+                <p class="payment-note">Secure payment options are available at checkout.</p>
+
+                <article class="featured-review" id="featuredReview" tabindex="0">
+                    <div class="featured-review-head">
+                        <img id="featuredReviewImage" src="assets/ugc-4.webp" alt="Sarah using the LumaRestore mask">
+                        <div><strong id="featuredReviewName">Sarah & Maple</strong><span class="review-stars"
+                                aria-label="5 out of 5 stars"><i class="ph-fill ph-star"></i><i
+                                    class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                    class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></span></div>
+                    </div>
+                    <p id="featuredReviewQuote">“Maple sleeps deeper and longer than ever. The cushioning feels luxe and supportive.”</p>
+                    <div class="featured-review-dots" aria-label="Featured customer story">
+                        <button class="featured-review-dot active" type="button" aria-label="Show review 1" aria-current="true"></button>
+                        <button class="featured-review-dot" type="button" aria-label="Show review 2"></button>
+                        <button class="featured-review-dot" type="button" aria-label="Show review 3"></button>
+                    </div>
+                </article>
+
+                <fieldset class="product-bundles">
+                    <legend>Choose your bundle
+                        <!-- <a href="#bundle">View details</a> -->
+                    </legend>
+                    <label class="product-bundle is-selected">
+                        <input type="radio" name="product-bundle" value="Mask only" data-price="249"
+                            data-original-price="289" checked>
+                        <span class="bundle-thumb"><img src="assets/hero-main.webp" alt=""></span>
+                        <span class="product-bundle-copy"><strong>Buy 1 <small>ESSENTIAL</small></strong><span>Mask + controller</span></span>
+                        <strong class="product-bundle-price">$249</strong>
+                    </label>
+                    <label class="product-bundle">
+                        <input type="radio" name="product-bundle" value="Mask + eyewear" data-price="279"
+                            data-original-price="349">
+                        <span class="bundle-thumb"><img src="assets/bundle-eyewear.webp" alt=""></span>
+                        <span class="product-bundle-copy"><strong>Buy 1 + eyewear <small>SAVE $70</small></strong><span>Mask + protective eyewear</span></span>
+                        <strong class="product-bundle-price">$279</strong>
+                    </label>
+                    <label class="product-bundle">
+                        <input type="radio" name="product-bundle" value="Mask + eyewear + case" data-price="309"
+                            data-original-price="409">
+                        <span class="bundle-thumb"><img src="assets/bundle-case.webp" alt=""></span>
+                        <span class="product-bundle-copy"><strong>Complete setup <small>SAVE $100</small></strong><span>Mask + eyewear + case</span></span>
+                        <strong class="product-bundle-price">$309</strong>
+                    </label>
+                </fieldset>
+
+                <div class="qty-row">
+                    <span>Quantity</span>
+                    <div class="qty-control">
+                        <button class="qty-btn" data-qty="-1" aria-label="Decrease quantity"><i class="ph ph-minus"
+                                aria-hidden="true"></i></button>
+                        <output id="qtyValue">1</output>
+                        <button class="qty-btn" data-qty="1" aria-label="Increase quantity"><i class="ph ph-plus"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <button class="primary-btn add-to-cart" data-source="buy-box">Add to Cart</button>
+                <button class="secondary-btn buy-now">Buy Now</button>
+
+                <p class="shipping-line"><i class="ph ph-arrow-up-right" aria-hidden="true"></i> Shipping options are shown
+                    at checkout.</p>
+                <!-- <div class="buy-trust">
+                    <span><i class="ph ph-shield-check" aria-hidden="true"></i> Secure checkout</span>
+                    <span class="pending-badge">Clear product guidance</span>
+                    <span><i class="ph ph-arrow-counter-clockwise" aria-hidden="true"></i> Easy returns</span>
+                </div> -->
+            </aside>
+        </section>
+
+        <section class="trust-strip">
+            <div class="container trust-grid">
+                <article><span class="trust-icon"><i class="ph ph-shield-check" aria-hidden="true"></i></span>
+                    <div><strong>Secure checkout</strong>
+                        <p>Protected payment processing.</p>
+                    </div>
+                </article>
+                <article><span class="trust-icon"><i class="ph ph-arrow-counter-clockwise"
+                            aria-hidden="true"></i></span>
+                    <div><strong>Returns policy</strong>
+                        <p>Shop with confidence.</p>
+                    </div>
+                </article>
+                <article><span class="trust-icon"><i class="ph ph-check-circle" aria-hidden="true"></i></span>
+                    <div><strong>Safety information</strong>
+                        <p>Clear guidance for confident use.</p>
+                    </div>
+                </article>
+                <article><span class="trust-icon"><i class="ph ph-heart" aria-hidden="true"></i></span>
+                    <div><strong>Routine-friendly</strong>
+                        <p>Designed for comfortable home use.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section container split-section reveal" id="problem">
+            <div class="split-copy">
+                <p class="eyebrow">Make the routine easier</p>
+                <h2>Bring a focused light therapy ritual into your everyday routine.</h2>
+                <p>Set aside a few quiet minutes, fit the mask comfortably, and make light therapy part of the self-care habits you already enjoy. LumaRestore is designed for simple, repeatable use at home.</p>
+                <a class="text-link" href="#how-it-works">See how it fits your routine <i class="ph ph-arrow-right"
+                        aria-hidden="true"></i></a>
+            </div>
+            <img src="assets/lifestyle-routine.webp" alt="LED mask resting in a calm skincare setting">
+        </section>
+
+        <section class="section soft-section" id="how-it-works">
+            <div class="container mechanism">
+                <div class="mechanism-art reveal">
+                    <img src="assets/mask-angle.webp" alt="Three-quarter view showing the interior LED panel and strap">
+                    <div class="callout one"><strong>Red light</strong><span>Targeted light designed for a focused self-care session.</span></div>
+                    <div class="callout two"><strong>Comfortable fit</strong><span>Adjustable straps help create a secure, relaxed fit.</span></div>
+                </div>
+                <div class="reveal">
+                    <p class="eyebrow">How it works</p>
+                    <h2>Light therapy, made easy to use.</h2>
+                    <p>LumaRestore uses a purpose-built LED light array in a wearable mask format, so you can enjoy a hands-free session at home while you read, relax, or simply take a few minutes for yourself.</p>
+                    <p class="compliance-note">Follow the included instructions and use the mask only as directed. Individual experiences may vary.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="benefits">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Key benefits</p>
+                <h2>Designed to support a consistent self-care ritual.</h2>
+            </div>
+            <div class="benefit-grid">
+                <article class="card reveal"><span><i class="ph ph-repeat" aria-hidden="true"></i></span>
+                    <h3>Easy to repeat</h3>
+                    <p>A short, defined step can be easier to keep in a regular routine.</p>
+                </article>
+                <article class="card reveal"><span><i class="ph ph-house" aria-hidden="true"></i></span>
+                    <h3>At-home format</h3>
+                    <p>Use it where your existing skincare ritual already happens.</p>
+                </article>
+                <article class="card reveal"><span><i class="ph ph-circle-half" aria-hidden="true"></i></span>
+                    <h3>Hands-free experience</h3>
+                    <p>Designed for a more relaxed moment than an appointment-based routine.</p>
+                </article>
+                <article class="card reveal"><span><i class="ph ph-arrow-clockwise" aria-hidden="true"></i></span>
+                    <h3>Made for consistency</h3>
+                    <p>A simple format makes it easier to keep your self-care routine on track.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section soft-section" id="usage">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">How to use</p>
+                    <h2>A simple four-step ritual.</h2>
+                </div>
+                <div class="usage-grid">
+                    <article class="usage-card reveal"><span class="step-number">01</span><img
+                            src="assets/usage-step-charge.webp" alt="LED mask on a charging stand">
+                        <h3>Prepare</h3>
+                        <p>Charge the controller and prepare a clean, comfortable space.</p>
+                    </article>
+                    <article class="usage-card reveal"><span class="step-number">02</span><img
+                            src="assets/usage-step-apply.webp" alt="Person placing an LED therapy mask on their face">
+                        <h3>Apply</h3>
+                        <p>Position the mask and adjust the straps for a secure, comfortable fit.</p>
+                    </article>
+                    <article class="usage-card reveal"><span class="step-number">03</span><img
+                            src="assets/3_Session.png" alt="Person relaxing during an LED mask session">
+                        <h3>Stay consistent</h3>
+                        <p>Relax during your session and follow the recommended usage time.</p>
+                    </article>
+                    <article class="usage-card reveal"><span class="step-number">04</span><img
+                            src="assets/4_Frequency.png" alt="LED mask arranged for a regular skincare routine">
+                        <h3>Repeat</h3>
+                        <p>Repeat your routine consistently and notice how it fits your lifestyle.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="results">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Routine timeline</p>
+                <h2>Build a routine that lasts.</h2>
+                <p>Consistency is the key to making any self-care ritual feel natural.</p>
+            </div>
+            <div class="timeline-wrap reveal">
+                <div class="timeline-line" aria-hidden="true"></div>
+                <ol class="timeline-list">
+                    <li class="timeline-step timeline-step-one">
+                        <div class="timeline-node" aria-hidden="true"><i class="ph ph-plus"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-kicker">01 / Start</span>
+                            <h3>Weeks 1-2</h3>
+                            <p>Build the habit</p>
+                            <span class="timeline-note">Create a calm, repeatable starting point.</span>
+                        </div>
+                    </li>
+                    <li class="timeline-step timeline-step-two">
+                        <div class="timeline-node" aria-hidden="true"><i class="ph ph-wave-sine"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-kicker">02 / Continue</span>
+                            <h3>Weeks 3-4</h3>
+                            <p>Keep your routine consistent</p>
+                            <span class="timeline-note">Let consistency become part of your day.</span>
+                        </div>
+                    </li>
+                    <li class="timeline-step timeline-step-three">
+                        <div class="timeline-node" aria-hidden="true"><i class="ph ph-check"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-kicker">03 / Make it yours</span>
+                            <h3>Week 5+</h3>
+                            <p>Assess your routine over time</p>
+                            <span class="timeline-note">Notice what fits your lifestyle long term.</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="section soft-section" id="specifications">
+            <div class="container specs-layout">
+                <div class="reveal"><img class="spec-image" src="assets/mask-worn.webp"
+                        alt="Customer wearing the LumaRestore LED light therapy mask at home"></div>
+                <div class="reveal">
+                    <p class="eyebrow">Product details</p>
+                    <h2>Everything you need for a comfortable session.</h2>
+                    <div class="spec-list">
+                        <details open>
+                            <summary>Wavelengths <i class="ph ph-plus" aria-hidden="true"></i></summary>
+                            <p>Red light LED technology built into a wearable face mask for at-home sessions.</p>
+                        </details>
+                        <details>
+                            <summary>Design & fit <i class="ph ph-plus" aria-hidden="true"></i></summary>
+                            <p>Hands-free design with a lightweight profile and adjustable straps.</p>
+                        </details>
+                        <details>
+                            <summary>Eye-area design <i class="ph ph-plus" aria-hidden="true"></i></summary>
+                            <p>The mask is shaped to sit comfortably around the face. Follow the included eye-area and usage instructions.</p>
+                        </details>
+                        <details>
+                            <summary>Care & safety <i class="ph ph-plus" aria-hidden="true"></i></summary>
+                            <p>Use the product according to the included instructions and discontinue use if discomfort occurs.</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="ugc">
+            <div class="section-heading reveal">
+                <p class="eyebrow">In real routines</p>
+                <h2>Less studio. More everyday context.</h2>
+            </div>
+            <div class="ugc-carousel" id="ugcCarousel">
+                <button class="ugc-arrow ugc-prev" type="button" aria-label="Previous routine image">
+                    <i class="ph ph-arrow-left" aria-hidden="true"></i>
+                </button>
+                <div class="ugc-viewport">
+                    <div class="ugc-grid" id="ugcTrack">
+                        <button class="ugc-item reveal"><img src="assets/ugc-1.webp"
+                                alt="LED mask in a home bathroom setting"></button>
+                        <button class="ugc-item reveal"><img src="assets/ugc-2.webp"
+                                alt="LED mask packed in a travel bag"></button>
+                        <button class="ugc-item reveal"><img src="assets/ugc-3.webp"
+                                alt="Casual at-home LED mask selfie"></button>
+                        <button class="ugc-item reveal"><img src="assets/ugc-4.webp"
+                                alt="Person relaxing at home wearing an LED mask"></button>
+                        <button class="ugc-item reveal"><img src="assets/ugc-5.webp"
+                                alt="LED mask on a bedroom nightstand"></button>
+                        <button class="ugc-item reveal"><img src="assets/ugc-6.webp"
+                                alt="Casual LED mask vanity selfie"></button>
+                    </div>
+                </div>
+                <button class="ugc-arrow ugc-next" type="button" aria-label="Next routine image">
+                    <i class="ph ph-arrow-right" aria-hidden="true"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- <section class="section soft-section" id="comparison">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Compare the format</p>
+                    <h2>A simple option for consistent at-home care.</h2>
+                </div>
+                <div class="comparison-table reveal">
+                    <div class="compare-cell compare-head"></div>
+                    <div class="compare-cell compare-head"><img src="assets/hero-main.webp"
+                            alt=""><strong>LumaRestore</strong>
+                    </div>
+                    <div class="compare-cell compare-head"><img src="assets/comparison-clinic-icon.webp"
+                            alt=""><strong>Clinic
+                            visit</strong></div>
+                    <div class="compare-cell compare-head"><img src="assets/comparison-generic-mask.webp"
+                            alt=""><strong>Generic
+                            mask</strong></div>
+                    <div class="compare-cell label">Use location</div>
+                    <div class="compare-cell">At home</div>
+                    <div class="compare-cell">Appointment setting</div>
+                    <div class="compare-cell">Varies</div>
+                    <div class="compare-cell label">Routine format</div>
+                    <div class="compare-cell">Personal routine</div>
+                    <div class="compare-cell">Scheduled visit</div>
+                    <div class="compare-cell">Varies</div>
+                    <div class="compare-cell label">Exact specifications</div>
+                    <div class="compare-cell">Made for home use</div>
+                    <div class="compare-cell">Provider-dependent</div>
+                    <div class="compare-cell">Varies by device</div>
+                    <div class="compare-cell label">Price</div>
+                    <div class="compare-cell">One-time purchase</div>
+                    <div class="compare-cell">Provider-dependent</div>
+                    <div class="compare-cell">Varies</div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- <section class="section container" id="bundle">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Bundle & save</p>
+                <h2>Choose the setup that fits your routine.</h2>
+                <p>Choose the essentials or build a complete setup for your routine.</p>
+            </div>
+            <div class="bundle-grid">
+                <article class="bundle-card reveal"><img src="assets/hero-main.webp" alt="LED mask">
+                    <div><span class="bundle-kicker">Essential</span>
+                        <h3>Mask only</h3>
+                        <p>The LumaRestore mask and controller.</p><strong>$249</strong><button class="bundle-select"
+                            type="button">Select</button>
+                    </div>
+                </article>
+                <article class="bundle-card reveal"><img src="assets/bundle-eyewear.webp" alt="Protective eyewear">
+                    <div><span class="bundle-kicker">Routine</span>
+                        <h3>Mask + eyewear</h3>
+                        <p>Add protective eyewear for a more comfortable session.</p><strong>$279</strong><button class="bundle-select"
+                            type="button">Select</button>
+                    </div>
+                </article>
+                <article class="bundle-card reveal"><img src="assets/bundle-case.webp" alt="Fabric storage case">
+                    <div><span class="bundle-kicker">Complete</span>
+                        <h3>Mask + eyewear + case</h3>
+                        <p>Add eyewear and a storage case for easy organization.</p><strong>$309</strong><button class="bundle-select"
+                            type="button">Select</button>
+                    </div>
+                </article>
+            </div>
+        </section> -->
+
+        <section class="section soft-section" id="reviews">
+            <div class="container reviews-layout">
+                <aside class="review-summary reveal">
+                    <p class="eyebrow">Reviews</p>
+                    <h2>4.8 out of 5</h2>
+                    <div class="big-stars" aria-label="4.8 out of 5 stars"><i class="ph-fill ph-star"
+                            aria-hidden="true"></i><i class="ph-fill ph-star" aria-hidden="true"></i><i
+                            class="ph-fill ph-star" aria-hidden="true"></i><i class="ph-fill ph-star"
+                            aria-hidden="true"></i><i class="ph-fill ph-star" aria-hidden="true"></i></div>
+                    <p>What customers say about making light therapy part of their daily routine.</p>
+                    <div class="review-filters"><button class="filter active" data-rating="all">All</button><button
+                            class="filter" data-rating="5">5 <i class="ph-fill ph-star"
+                                aria-hidden="true"></i></button><button class="filter" data-rating="4">4 <i
+                                class="ph-fill ph-star" aria-hidden="true"></i></button>
+                    </div>
+                </aside>
+                <div class="review-carousel">
+                    <div class="review-viewport">
+                        <div class="review-list" id="reviewTrack">
+                            <article class="review-card reveal" data-rating="5">
+                                <div class="review-stars" aria-label="5 out of 5 stars"><i class="ph-fill ph-star"
+                                        aria-hidden="true"></i><i class="ph-fill ph-star" aria-hidden="true"></i><i
+                                        class="ph-fill ph-star" aria-hidden="true"></i><i class="ph-fill ph-star"
+                                        aria-hidden="true"></i><i class="ph-fill ph-star" aria-hidden="true"></i>
+                                </div>
+                                <h3>Easy to fit into my evening routine</h3>
+                                <p class="review-quote">“The five-minute format makes the ritual feel manageable. It is
+                                    now the part of my evening I look forward to.”</p>
+                                <div class="review-author"><span class="review-avatar">SM</span>
+                                    <div><strong>Sarah Mitchell</strong><span>Glow Studio</span></div>
+                                </div>
+                            </article>
+                            <article class="review-card reveal" data-rating="5">
+                                <div class="review-stars" aria-label="5 out of 5 stars"><i class="ph-fill ph-star"
+                                        aria-hidden="true"></i><i class="ph-fill ph-star" aria-hidden="true"></i><i
+                                        class="ph-fill ph-star" aria-hidden="true"></i><i class="ph-fill ph-star"
+                                        aria-hidden="true"></i><i class="ph-fill ph-star" aria-hidden="true"></i>
+                                </div>
+                                <h3>Simple, calm design</h3>
+                                <p class="review-quote">“The fit is comfortable and the whole routine feels simple
+                                    enough to keep coming back to.”</p>
+                                <div class="review-author"><span class="review-avatar">EC</span>
+                                    <div><strong>Emma Carter</strong><span>Radiant Co.</span></div>
+                                </div>
+                            </article>
+                            <article class="review-card reveal" data-rating="4">
+                                <div class="review-stars" aria-label="4 out of 5 stars"><i class="ph-fill ph-star"
+                                        aria-hidden="true"></i><i class="ph-fill ph-star" aria-hidden="true"></i><i
+                                        class="ph-fill ph-star" aria-hidden="true"></i><i class="ph-fill ph-star"
+                                        aria-hidden="true"></i><i class="ph ph-star" aria-hidden="true"></i>
+                                </div>
+                                <h3>Works with my routine</h3>
+                                <p class="review-quote">“I appreciate how easy it is to use at home. The routine fits
+                                    around busy mornings.”</p>
+                                <div class="review-author"><span class="review-avatar">OB</span>
+                                    <div><strong>Olivia Bennett</strong><span>Everyday Wellness</span></div>
+                                </div>
+                            </article>
+                            <article class="review-card reveal" data-rating="5">
+                                <div class="review-stars" aria-label="5 out of 5 stars"><i class="ph-fill ph-star"
+                                        aria-hidden="true"></i><i class="ph-fill ph-star" aria-hidden="true"></i><i
+                                        class="ph-fill ph-star" aria-hidden="true"></i><i class="ph-fill ph-star"
+                                        aria-hidden="true"></i><i class="ph-fill ph-star" aria-hidden="true"></i>
+                                </div>
+                                <h3>Easy to keep in my travel routine</h3>
+                                <p class="review-quote">“The compact setup makes it easy to keep my self-care routine
+                                    consistent when I am away.”</p>
+                                <div class="review-author"><span class="review-avatar">CA</span>
+                                    <div><strong>Chloe Adams</strong><span>Glow Goods</span></div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <button class="review-arrow review-prev" type="button" aria-label="Previous review">
+                        <i class="ph ph-arrow-left" aria-hidden="true"></i>
+                    </button>
+                    <button class="review-arrow review-next" type="button" aria-label="Next review">
+                        <i class="ph ph-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container faq-section" id="faq">
+            <div class="section-heading reveal">
+                <p class="eyebrow">FAQ</p>
+                <h2>Questions before you begin?</h2>
+            </div>
+            <div class="faq-list reveal">
+                <details open>
+                    <summary>Is the eye area safe? <i class="ph ph-plus" aria-hidden="true"></i></summary>
+                    <p>Follow the included instructions carefully. Keep the device clean, use it only as directed, and stop using it if you experience discomfort.</p>
+                </details>
+                <details>
+                    <summary>Can I use it while pregnant or taking medication? <i class="ph ph-plus"
+                            aria-hidden="true"></i></summary>
+                    <p>If you are pregnant, under medical care, or taking medication, consult your healthcare professional before using a light therapy device.</p>
+                </details>
+                <details>
+                    <summary>How long should each session be? <i class="ph ph-plus" aria-hidden="true"></i></summary>
+                    <p>Follow the recommended session time provided with your LumaRestore mask. Do not use it for longer or more often than directed.</p>
+                </details>
+                <details>
+                    <summary>How often should I use it? <i class="ph ph-plus" aria-hidden="true"></i></summary>
+                    <p>Use LumaRestore according to the included routine guidance. A consistent schedule is more useful than occasional, extended sessions.</p>
+                </details>
+                <details>
+                    <summary>When should I expect results? <i class="ph ph-plus" aria-hidden="true"></i></summary>
+                    <p>Results and experiences vary from person to person. Focus on following the recommended routine consistently.</p>
+                </details>
+                <details>
+                    <summary>What comes in the box? <i class="ph ph-plus" aria-hidden="true"></i></summary>
+                    <p>Your order includes the LumaRestore mask, controller, charging cable, adjustable straps, and product instructions.</p>
+                </details>
+            </div>
+        </section>
+
+        <!-- <section class="final-cta" id="final">
+            <img src="assets/final-cta-crop.png" alt="LED therapy mask centered on a warm neutral background">
+            <div class="final-content">
+                <p class="eyebrow">Bring the routine home</p>
+                <h2>A calmer step. A clearer routine.</h2>
+                <p>Make a few quiet minutes for yourself and bring a simple light therapy ritual home.</p>
+                <div><strong id="finalPrice">$249</strong><button class="primary-btn add-to-cart"
+                        data-source="final-cta">Add to
+                        Cart</button></div>
+            </div>
+        </section> -->
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div><a class="brand footer-brand" href="#top" aria-label="LumaRestore home">
+                    <img src="assets/Footer_Logo.png" alt="LumaRestore">
+                </a>
+                <p>Simple, thoughtful tools for a more consistent self-care routine.</p>
+                <div class="footer-social" aria-label="Social media links">
+                    <a href="#top" aria-label="Facebook"><i class="ph ph-facebook-logo" aria-hidden="true"></i></a>
+                    <a href="#top" aria-label="Instagram"><i class="ph ph-instagram-logo" aria-hidden="true"></i></a>
+                    <a href="#top" aria-label="TikTok"><i class="ph ph-tiktok-logo" aria-hidden="true"></i></a>
+                    <a href="#top" aria-label="Google"><i class="ph ph-google-logo" aria-hidden="true"></i></a>
+                    <a href="#top" aria-label="YouTube"><i class="ph ph-youtube-logo" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <details open>
+                <summary>Shop</summary><a href="#product">Red Light Therapy Mask</a><a href="#bundle">Bundles</a>
+            </details>
+            <details open>
+                <summary>Support</summary><a href="#faq">FAQ</a><a href="#top">Contact</a>
+            </details>
+            <details open>
+                <summary>Policies</summary>
+                <a href="#top">Shipping Policy</a>
+                <a href="#top">Returns Policy</a>
+                <a href="#top">Privacy Policy</a>
+            </details>
+        </div>
+        <div class="container footer-bottom">
+            <span>© 2026 LumaRestore.</span>
+            <span>Use the product according to the included instructions.</span>
+            <div class="payment-methods" aria-label="Accepted payment methods">
+                <img src="assets/visa.svg" alt="Visa">
+                <img src="assets/Mastercard.svg" alt="Mastercard">
+                <img src="assets/American-Express.svg" alt="American Express">
+                <img src="assets/PayPal.svg" alt="PayPal">
+                <img src="assets/DinersClub.svg" alt="Diners Club">
+                <img src="assets/Discover.svg" alt="Discover">
+            </div>
+        </div>
+    </footer>
+
+    <div class="overlay" id="overlay" hidden></div>
+    <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+        <div class="drawer-head">
+            <h2>Your bag</h2><button id="closeCart" aria-label="Close cart"><i class="ph ph-x"
+                    aria-hidden="true"></i></button>
+        </div>
+        <div id="cartItems">
+            <p>Your bag is empty.</p>
+        </div>
+        <div class="drawer-foot"><strong id="cartTotal">$0</strong><button class="primary-btn"
+                id="checkoutBtn">Checkout</button></div>
+    </aside>
+
+    <div class="lightbox" id="lightbox" hidden aria-hidden="true">
+        <button id="closeLightbox" aria-label="Close fullscreen image"><i class="ph ph-x"
+                aria-hidden="true"></i></button>
+        <img id="lightboxImage" src="" alt="">
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <div class="mobile-sticky" id="mobileSticky">
+        <img src="assets/hero-main.webp" alt="Red Light Therapy Mask">
+        <div class="mobile-sticky-copy">
+            <small>Red Light Therapy Mask</small>
+            <strong id="stickyPrice">$249</strong>
+        </div>
+        <div class="qty-control sticky-qty-control" aria-label="Sticky cart quantity">
+            <button class="qty-btn" data-qty="-1" aria-label="Decrease quantity"><i class="ph ph-minus"
+                    aria-hidden="true"></i></button>
+            <output id="stickyQuantity">1</output>
+            <button class="qty-btn" data-qty="1" aria-label="Increase quantity"><i class="ph ph-plus"
+                    aria-hidden="true"></i></button>
+        </div>
+        <button class="primary-btn add-to-cart" data-source="mobile-sticky">Add to Cart</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
